@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDOList</title>
+</head>
+<body>
+    <div class="task-head">
+        <h2>ToDO App</h2>
+        <label id="task-desc-label" for="task-desc">Task</label><br>
+        <input type="text" id="task-desc" placeholder="Task you wanted to add">
+        <button class="add-task">+</button>
+        <div id="clear-activity">
+            <button class="complete-all">Complete All</button>
+            <button class="clear-complete">Clear Complete</button>
+        </div>
+    </div>
+
+    <div class="task-body">
+        
+        <ul id="task-list">
+            <p>No task added at the moment</p>
+        </ul>
+    </div>
+
+    <div id="task-count">
+        <div>
+            <p>Total tasks : 0</p>
+            <p>Completed tasks : 0 </p>
+            <p>Remaining Tasks : 0 </p>
+        </div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
